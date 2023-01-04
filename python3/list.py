@@ -14,10 +14,13 @@ print(L)
 L.extend([8, 10])
 print(L)
 
-# Appending multiple element at the
 # Deleting last element from a list
 L.pop()
 print(L)
 
-# Displaying Second element of the list
+# Removing element with specific value (if it doesn't exist throw error)
+L.remove(3)
+print(L)
+
+# Displaying second element of the list
 print(L[1])
